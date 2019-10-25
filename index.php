@@ -62,7 +62,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
         }
         echo '</li></ul>';
         ?>
-        <p><a href="add.php">Add New Entry</a></p>
+        <p><a href="add.php">Please log in</a></p>
         <p>
             <b>Note:</b> Your implementation should retain data across multiple
             logout/login sessions. This sample implementation clears all its
