@@ -1,11 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: cuiziang
- * Date: 2018-06-04
- * Time: 8:13 PM
- */
+$servername = "127.0.0.1";
+$username = "root";
+$password = "";
 
-$pdo = new PDO('mysql:host=127.0.0.1;port=8889;dbname=misc', 'root', 'root');
+$pdo = new PDO("mysql:host=$servername;dbname=misc", $username,$password);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+?>
